@@ -1,0 +1,44 @@
+.oversikt-wrapper {
+    margin-left: 64px;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.oversikt-rad-wrapper {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.oversikt-etg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color: white;
+    margin-right: 4px;
+}
+.oversikt-etg-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: FremtindBold;
+}
+
+.oversikt-etg-wrapper span {
+    font-size: 40px;
+}
+
+.oversikt-antall {
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    background-color: white;
+    width: calc(90% - 4px);
+    font-family: FremtindBold;
+    font-size: 40px;
+}

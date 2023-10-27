@@ -1,0 +1,20 @@
+.nav-wrapper {
+    margin-left: 64px;
+    padding: 0 16px 0 4px;
+    border-bottom: 2px solid #C8C5C3;
+    display: inline-block;
+}
+button:first-of-type {
+    margin-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+.nav-button {
+    font-family: FremtindBold;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    margin-left: 40px;
+    padding-bottom: 8px;
+    transform: translateY(2px);
+}

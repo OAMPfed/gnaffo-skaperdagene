@@ -1,0 +1,57 @@
+.minkanne-info {
+    margin-left: 64px;
+    margin-top: 40px;
+    font-family: FremtindBold;
+    font-size: 16px;
+}
+
+.minkanne-info > span {
+    background-color: #C8ECD2;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.svg-container {
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.custom-svg path {
+    animation: oceanWave 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.custom-svg path:nth-child(2) { animation-delay: 1s; }
+.custom-svg path:nth-child(3) { animation-delay: 3s; }
+.custom-svg path:nth-child(4) { animation-play-state: paused; }
+
+@keyframes oceanWave {
+    0% { d: path("M0,192 C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 10000 L0 10000"); }
+    25% { d: path("M0,100 C220,100,440,292,660,292 C880,292,1100,100,1320,100 L1320 10000 L0 10000"); }
+    50% { d: path("M0,192 C220,290,440,290,660,192 C880,100,1100,100,1320,192 L1320 10000 L0 10000"); }
+    75% { d: path("M0,292 C220,292,440,100,660,100 C880,100,1100,292,1320,292 L1320 10000 L0 10000"); }
+    100% { d: path("M0,192 C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 10000 L0 10000"); }
+}
+
+
+.custom-svg {
+    width: 100%;
+}
+@media (max-width: 900px) {
+    .custom-svg {
+        width: 200%;
+    }
+}
+@media (max-width: 600px) {
+    .custom-svg {
+        width: 500%;
+    }
+}
+
+.background-div {
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    background-color: #f0f0f0; /* Your desired background color */
+}
